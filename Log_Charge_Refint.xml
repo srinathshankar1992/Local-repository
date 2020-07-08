@@ -1,5 +1,5 @@
 
-
+hshadkahsdkjskdakj
 Request:
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://www.telefonica.com/UNICA/charging_interfaces/v1_0" xmlns:v11="http://www.telefonica.com/UNICA_CommonTypes/v1_0" xmlns:v12="http://www.telefonica.com/UNICA/charging_types/v1_0" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://soa.o2.ie/coredata_1_0">
    <soapenv:Header>
@@ -11,32 +11,7 @@ Request:
       </wsse:Security>
       <cor:debugFlag>true</cor:debugFlag>
    </soapenv:Header>
-   <soapenv:Body>
-      <v1:directDebitRequest xmlns:ns2="http://www.telefonica.com/UNICA_CommonTypes/v1_0" xmlns:ns3="http://www.telefonica.com/UNICA/charging_types/v1_0" xmlns:ns4="http://www.telefonica.com/UNICA/charging_interfaces/v1_0" xmlns:ns5="http://www.csapi.org/schema/parlayx/common/v1_0" xmlns:ns6="http://www.telefonica.com/schemas/UNICA/SOAP/common/v1/faults">
-         <v1:requestId>5632445345</v1:requestId>
-         <v1:requestNumber>0</v1:requestNumber>
-         <v1:timestamp>2017-09-18T11:54:37</v1:timestamp>
-         <v1:senderIdentity>10010</v1:senderIdentity>
-         <v1:serviceContextId>541111</v1:serviceContextId>
-         <v1:merchantId>te_TaxiPayment</v1:merchantId>
-         <v1:userId>
-            <v11:phoneNumber>353862303916</v11:phoneNumber>
-         </v1:userId>
-         <v1:purchaseCode>23061</v1:purchaseCode>
-         <v1:description>14521536142551</v1:description>
-         <v1:requestedServiceUnits>
-            <v12:money>
-               <v12:monetaryUnits>
-                  <v12:valueDigits>1</v12:valueDigits>
-               </v12:monetaryUnits>
-               <v12:valueBeforeTaxes>0</v12:valueBeforeTaxes>
-               <v12:unitsCurrencyCode>978</v12:unitsCurrencyCode>
-            </v12:money>
-         </v1:requestedServiceUnits>
-         <v1:applicationReference>15644254777</v1:applicationReference>
-      </v1:directDebitRequest>
-   </soapenv:Body>
-</soapenv:Envelope>
+   
 
 Response:
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
